@@ -1,0 +1,172 @@
+/* KONTEN HEADER HTML SUBMISSION BELAJAR DASAR PEMROGRAMAN WEB KAMALUDIN GUSTIPARTSANI */
+.header {
+    background-color: #18122B;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 5%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10; 
+    font-family: Impact ;
+}
+
+.gambarmarvel {
+    margin-left: auto;
+    margin-right: 60px;
+    margin-top: 6%;
+    float: right;
+    border: 3px solid #000000;
+    z-index: 3;
+    width: 350px;
+    height: 175px;
+}
+
+.aside1{
+    font-size: 18px;
+    width: 100%;
+}
+
+.aside2{
+    width: 70%;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+p {
+    font-size: 18px;
+}
+/* KONTEN NAV HTML SUBMISSION BELAJAR DASAR PEMROGRAMAN WEB KAMALUDIN GUSTIPARTSANI */
+.nav {
+    background-color: #635985;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 20;
+}
+nav a {
+    color: #fff;
+    font-family: fantasy;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+nav li:last-child {
+    margin-right: 100px;
+}
+body {
+    padding-top: 80px;
+}
+
+/* KONTEN BODY HTML SUBMISSION BELAJAR DASAR PEMROGRAMAN WEB KAMALUDIN GUSTIPARTSANI */
+
+.body
+ {
+    background-color: #443C68;
+ }
+
+ /* KONTEN IMG HTML SUBMISSION BELAJAR DASAR PEMROGRAMAN WEB KAMALUDIN GUSTIPARTSANI */
+
+.img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10%;
+    border: 3px solid #000000;
+    z-index: 3;
+  }
+ 
+.item {
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+
+.marvel {
+    color: #fff;
+    text-align: center;
+    margin-top: 10%;
+    background-color: #18122B;
+    width: 100%;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mcu {
+    text-align: justify;
+    font-family: 'Gill Sans' ;
+    width: 70%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    align-items: center;
+  }
+  
+  .left-column, .right-column {
+    width: 45%;
+    padding: 20px;
+    background-color: #3A1078;
+  }
+  
+  .left-column h1, .right-column h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .left-column p, .right-column p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+footer {
+    background-color: #635985;
+    color: white;
+    flex-basis: 100%;
+    width: auto;
+    clear: both;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
