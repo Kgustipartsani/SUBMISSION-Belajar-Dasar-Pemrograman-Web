@@ -1,5 +1,7 @@
 body {
     background-color: #d8c6c6;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -109,9 +111,10 @@ body {
 }
 
 .card-body {
-    padding-left: 60px; /* Atur padding pada semua sisi card-body */
-    padding-right: 60px; /* Atur padding pada semua sisi card-body */
+    padding-left: 22px;/* Atur padding pada semua sisi card-body */
     height: 200px;
+    font-size:  12px;
+
 }
 .card-title {
     margin-bottom: 1rem; /* Jarak bawah judul artikel */
@@ -122,14 +125,13 @@ body {
     height: 450px; /* Set height to maintain aspect ratio */
     object-fit: cover; /* Cover the container */
     margin: 40px auto 0 auto; /* Center align the image horizontally */
-    border-top-left-radius: 15px; /* Rounded corners for the top-left */
-    border-top-right-radius: 15px; /* Rounded corners for the top-right */
 }
 
 .card-text {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    
 }
 
 .img {
@@ -139,3 +141,34 @@ body {
     border-radius: 35%;
     border: 3px solid #000000;
   }
+
+  .recommendation-img {
+    width: 120px; /* Tentukan lebar yang sesuai */
+    height: 120px; /* Otomatis menyesuaikan tinggi berdasarkan lebar */
+    border-radius: 8px;
+    object-fit: cover; /* Pilihan untuk membuat sudut melengkung */
+}
+
+
+.article-section {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    flex: 1;
+}
+
+.custom-row {
+    margin-left: 0; /* Atur sesuai kebutuhan */
+    margin-right: 0; /* Atur sesuai kebutuhan */
+}
+
+.aside {
+    background-color: rgba(248, 249, 250, 0.8); /* 0.8 adalah nilai opacity */
+
+}
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+}
